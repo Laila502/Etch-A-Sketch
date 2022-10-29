@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: beige;
+
+}
+
+h1{
+    font-size: 80px;
+    color: rgb(71, 71, 71);
+}
+
+p{
+    font-size: 35px;
+    color: rgb(71, 71, 71);
+}
+
+.buttons, .colors{
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+}
+
+button{
+    width: 80px;
+    height: 45px;
+    border-radius: 8px;
+    border-color: rgb(100, 99, 99);
+    background-color: darkgray;
+    cursor: pointer;
+}
+
+.white{
+    background-color: white;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.container{
+    border-color: gray;
+    border-style: solid;
+    background-color: rgb(34, 31, 31);
+    border-radius: 8px;
+    width: 600px;
+    height: 600px;
+    line-height: 0;
+    
+}
+
+.bottomButtons{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+
+.divs{
+    display: inline-block;
+}
+
+
+.container .reset{
+    background-color: white;
+}
